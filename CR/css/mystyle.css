@@ -1,0 +1,115 @@
+*{
+    background: transparent;
+}
+
+  
+body {
+    font-family: fantasy;
+    text-align: center;
+    font-weight: 400;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
+}
+
+#tc{
+    color: rgb(249, 249, 249);
+    background-color: rgb(232, 6, 6);
+    font-size: 2.5em;
+    padding-top: 10px;
+    margin-top: -5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 60px;
+    border-radius: 30px;
+
+
+}
+#idtc2{
+    width: 200px;
+    margin-top: -50px;
+}
+
+.tcFonts{
+    color: rgb(0, 0, 0);
+    font-weight: 800px;
+}
+
+
+
+.character {
+    width: 260px; 
+    background: transparent;
+    border-radius: 50%;
+   
+}
+.character2 {
+    width: 270px;
+    height:385px;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.square {
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#lionoDiv{
+    border: 9px solid rgb(223, 8, 8);
+
+}
+
+#Mumm-RaDiv{
+    border: 9px solid rgb(223, 8, 8);
+    background: linear-gradient(90deg, rgba(78,31,5,1) 0%, rgba(0,0,0,1) 100%);
+
+}
+
+.btn {
+    background-color: rgb(48, 14, 238);
+    color: white;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 12rem;
+    border-radius: 20px;
+    border: 3px solid rgb(223, 8, 8);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.btn:hover {
+    border: 5px solid rgb(242, 57, 57);
+}
+
+#lionoDiv {
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+#console{
+    color: rgb(255, 255, 255);
+}
+
+#bye {
+    color: rgb(245, 243, 243);
+}
+
+
+
+#lionOFooter{
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: -200px;
+
+}
+.charInfomain{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: red
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <title></title>
+</head>
+<body>
+    <h1 id="tc">ThunderCats!</h1>
+    <img id ="idtc2" src="img/tclogo23.png">
+    
+
+    <div class="wrap">
+        <div class="square" id="lionoDiv">
+            <h2 class="charhead"></h2>
+            <div id="img-c1">
+                <img class="character" src="img/lion23.jpg" alt="LionO">
+            </div>  
+            <div id="btn-c1">
+                <button id="lionOBtn" class="btn" onclick="c1.attack(c2,Select())">Attack</button>
+            </div>
+            <div id="info-c1">
+                <p class="charInfomain">Lion-O</p>
+                <p class="charInfo">Character Information</p>
+            </div> 
+        
+        </div>
+        <div class="square" id="Mumm-RaDiv">
+            <h2 class="charhead"></h2>
+            <div id="img-c2">
+                <img class="character2" src="img/mumRa2.jpg" alt="mumRa">
+            </div>     
+            <div id="btn-c2">
+                <button id="mumRaBtn" class="btn" onclick="c2.attack(c1,Select())">Attack</button>
+            </div>
+            <div id="info-c2">
+                <p class="charInfomain"><bold>Mumm-Ra</bold></p>
+                <p class="charInfo">Character Information</p>
+            </div> 
+        </div>
+    </div> <!-- wrapper-->
+
+    <div id="console">
+    </div>
+    <div id="bye"></div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
